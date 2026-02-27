@@ -19,6 +19,14 @@ This repository ("`Code - OSS`") is where we (Microsoft) develop the [Visual Stu
 
 Visual Studio Code is updated monthly with new features and bug fixes. You can download it for Windows, macOS, and Linux on [Visual Studio Code's website](https://code.visualstudio.com/Download). To get the latest releases every day, install the [Insiders build](https://code.visualstudio.com/insiders).
 
+
+## Android App
+
+This repository now includes a minimal Android application in [`android-app`](android-app).
+
+- Build locally (with Android SDK installed): `gradle -p android-app :app:assembleDebug`
+- CI build: `.github/workflows/android-apk.yml` uploads a debug APK artifact for each run.
+
 ## Contributing
 
 There are many ways in which you can participate in this project, for example:

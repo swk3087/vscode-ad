@@ -29,3 +29,7 @@ test-output.json
 test/componentFixtures/.screenshots/*
 !test/componentFixtures/.screenshots/baseline/
 dist
+
+# Android app artifacts
+android-app/.gradle/
+android-app/**/build/
